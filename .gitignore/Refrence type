@@ -1,0 +1,41 @@
+___________________________________________________Refrence_____________________________________________________
+
+                                               : Refrence type :
+Refrence Example 
+
+	In Refrence types variable is declare to one variable as refrence no memory alocation is req  
+
+   
+Genral syntax:
+
+datatype *var_name;
+int *ptr; 
+
+
+
+
+Example of Refrence types  
+
+# include < bits.h > or <stdc.h> // any one can be use
+using namespace
+
+int main()
+{
+	int x = 100     //value if 100 store in x 
+	
+	//ref is arefrence to 100
+	int& ref = x;
+	
+	//value of x changes to 200
+	ref = 200;
+	count << "ref =" << ref << end;
+	
+	//value of x changes to 500
+	x = 500
+	count << "ref =" << ref << end;
+	
+	return 0;
+}
+ output: 
+ 	x = 200
+	ref = 500
