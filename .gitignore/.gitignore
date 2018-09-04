@@ -1,0 +1,60 @@
+___________________________________________________Pointers_____________________________________________________
+
+                                         : Pointer memory location :
+
+Genral syntax:
+
+datatype *var_name;
+int *ptr; 
+
+
+ ptr  ________________
+     | ox7ffa05789dd4 |     ==========> Address of data pointer avilable 
+     |________________|
+             |
+             |  data pointer  
+             |
+var   _______|________
+     |      10        | ====> ( pointer variable define as *var )
+     |________________|
+       ox7ffa05789dd4   ====> (( Address store of var as 10 ))
+
+
+operation use in variable 
+
+ increment / decrement        ++ / --
+ 
+ increment to pointer ( + or += )
+
+ decrement to pointer ( + or -= )
+
+======================================================================================================================
+
+Example of ab
+
+# include < bits.h > or <stdc.h> // any one can be use
+
+int main
+ {
+	int v[3] = {100,350,996}; // store value
+	
+	//declare pointers
+	int *ptr;  		//  pointer 
+        
+	//Assign pointer to variable 
+	ptr = v;	   	// assign pointer 
+	
+	for (int i = 0; i<10; i++ )
+	{
+	 prntf("Value of *ptr = %d\n", *ptr)
+	 prntf("Value of *ptr = %p\n,n", *ptr)
+	} 
+	ptr++;
+}
+
+
+
+
+
+
+
