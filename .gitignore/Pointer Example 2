@@ -1,0 +1,61 @@
+___________________________________________________Pointers_____________________________________________________
+
+                                         : Pointer memory location :
+Pointer Example 
+
+   	  | 5 |       | 10 |      | 50 |  ======> pointer value 
+     ptr[0]       ptr[1]       ptr[2]  ======> pointer location to be stored 
+ 
+  
+Genral syntax:
+
+datatype *var_name;
+int *ptr; 
+
+
+
+
+Example of above 
+
+# include < bits.h > or <stdc.h> // any one can be use
+
+void PointerGroup()  
+ 
+ {
+	int value[3] = {5,10,50}; // pointer value   (1)
+	
+	//declare pointers
+	int *ptr;  		//  pointer 
+        
+	//Assign pointer to variable 
+	ptr = value;	   	// assign pointer     (2) 
+	
+	ptr = val;
+	count <<"element value of pointers are">>;
+	count <<"ptr[0]","ptr[1]","ptr[2]">>
+	
+	return;
+}
+
+int main()
+{
+	PointerGroup()
+	return 0;
+}
+
+
+
+
+
+
+
+output :
+
+	element of array are : 5 ,10, 50
+
+
+
+
+
+
+
